@@ -1,5 +1,6 @@
 {
     "name": "azure-devops-pr-comment",
+    "private": true,
     "version": "0.0.20",
     "description": "",
     "main": "index.js",

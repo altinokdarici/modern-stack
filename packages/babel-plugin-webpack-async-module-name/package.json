@@ -1,5 +1,6 @@
 {
     "name": "babel-plugin-webpack-async-module-name",
+    "private": true,
     "version": "1.0.2",
     "description": "This plugin uses custom identifier to name webpack dynamically imported modules.",
     "main": "lib/index.js",
