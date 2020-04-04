@@ -3,9 +3,9 @@
     "private": true,
     "scripts": {
         "lerna": "lerna",
-        "build": "lerna run build --parallel",
-        "rebuild": "lerna run rebuild --parallel",
-        "clean": "lerna run clean --parallel",
+        "build": "lerna run build --stream",
+        "rebuild": "lerna run rebuild --stream",
+        "clean": "lerna run clean --stream",
         "test": "lerna run test --stream",
         "lint": "eslint **/*.{js,ts}",
         "lint-fix": "eslint **/*.{js,ts} --fix",
