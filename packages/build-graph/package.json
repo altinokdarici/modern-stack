@@ -9,7 +9,7 @@
         "rebuild": "just-scripts rebuild",
         "clean": "just-scripts clean",
         "start": "ts-node src/index.ts",
-        "test": "jest"
+        "test": "just-scripts test"
     },
     "author": "",
     "license": "ISC",

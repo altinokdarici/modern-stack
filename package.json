@@ -5,7 +5,7 @@
         "build": "lerna run build --parallel",
         "rebuild": "lerna run rebuild --parallel",
         "clean": "lerna run clean --parallel",
-        "test": "lerna run test",
+        "test": "lerna run test --stream",
         "lint": "eslint **/*.{js,ts}",
         "lint-fix": "eslint **/*.{js,ts} --fix",
         "change": "beachball change",
