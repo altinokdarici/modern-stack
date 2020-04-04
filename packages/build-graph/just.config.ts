@@ -1,6 +1,7 @@
-import { taskPresets, jestTask, task } from 'just-scripts';
+import { justPresets } from '@modern-stack/build/lib/just';
+import { task, jestTask } from 'just-scripts';
 
-taskPresets.lib();
+justPresets.lib();
 
 task(
     'test',

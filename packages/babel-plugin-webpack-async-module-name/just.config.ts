@@ -1,3 +1,3 @@
-import { taskPresets } from 'just-scripts';
+import { justPresets } from '@modern-stack/build/lib/just';
 
-taskPresets.lib();
+justPresets.lib();

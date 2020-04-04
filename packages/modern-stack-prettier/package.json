@@ -1,0 +1,11 @@
+{
+    "name": "@modern-stack/prettier",
+    "version": "1.0.0",
+    "description": "",
+    "main": ".prettierrc.js",
+    "devDependencies": {
+        "prettier": "^2.0.2"
+    },
+    "author": "",
+    "license": "ISC"
+}

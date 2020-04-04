@@ -1,0 +1,22 @@
+{
+    "name": "@modern-stack/build",
+    "version": "1.0.0",
+    "description": "",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "bin": {
+        "modern-stack": "bin/index.js"
+    },
+    "scripts": {
+        "build": "just-scripts build",
+        "rebuild": "just-scripts rebuild",
+        "clean": "just-scripts clean",
+        "test": "echo \"No test specified\""
+    },
+    "devDependencies": {
+        "just-scripts": "^0.36.1",
+        "yargs": "^15.3.1"
+    },
+    "author": "",
+    "license": "ISC"
+}

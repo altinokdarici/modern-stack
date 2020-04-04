@@ -5,9 +5,9 @@
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "scripts": {
-        "build": "just-scripts build",
-        "rebuild": "just-scripts rebuild",
-        "clean": "just-scripts clean",
+        "build": "modern-stack build",
+        "rebuild": "modern-stack rebuild",
+        "clean": "modern-stack clean",
         "test": "echo \"No test specified\""
     },
     "repository": {
@@ -24,6 +24,6 @@
     },
     "homepage": "https://github.com/altinokdarici/modern-stack/tree/master/packages/just-ioc#readme",
     "devDependencies": {
-        "just-scripts": "^0.36.1"
+        "@modern-stack/build": "^1.0.0"
     }
 }

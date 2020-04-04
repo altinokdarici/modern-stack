@@ -4,11 +4,12 @@
     "version": "1.0.2",
     "description": "This plugin uses custom identifier to name webpack dynamically imported modules.",
     "main": "lib/index.js",
+    "types": "lib/index.d.ts",
     "scripts": {
-        "test": "npm run build && mocha",
-        "build": "just-scripts build",
-        "rebuild": "just-scripts rebuild",
-        "clean": "just-scripts clean"
+        "build": "modern-stack build",
+        "rebuild": "modern-stack rebuild",
+        "clean": "modern-stack clean",
+        "test": "npm run build && mocha"
     },
     "keywords": [
         "babel",
@@ -25,12 +26,12 @@
     "author": "tgxh2020@gmail.com",
     "license": "MIT",
     "devDependencies": {
+        "@modern-stack/build": "^1.0.0",
         "@babel/traverse": "^7.8.4",
         "@babel/types": "^7.8.3",
         "babel-core": "^6.26.3",
         "chai": "^4.1.2",
         "mocha": "^7.1.1",
-        "@types/babel__traverse": "^7.0.8",
-        "just-scripts": "^0.36.1"
+        "@types/babel__traverse": "^7.0.8"
     }
 }
