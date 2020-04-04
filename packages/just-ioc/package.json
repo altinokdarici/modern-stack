@@ -1,0 +1,29 @@
+{
+    "name": "just-ioc",
+    "version": "1.0.12",
+    "description": "Simplest IOC container",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "scripts": {
+        "build": "just-scripts build",
+        "rebuild": "just-scripts rebuild",
+        "clean": "just-scripts clean",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/altinokdarici/just-ioc.git"
+    },
+    "keywords": [
+        "ioc"
+    ],
+    "author": "Altinok Darici",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/altinokdarici/just-ioc/issues"
+    },
+    "homepage": "https://github.com/altinokdarici/just-ioc#readme",
+    "devDependencies": {
+        "just-scripts": "^0.36.1"
+    }
+}

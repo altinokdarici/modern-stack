@@ -1,0 +1,24 @@
+name: PR
+
+on:
+    pull_request:
+        branches: [master]
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v2
+
+            - name: yarn install
+              run: yarn install --frozen-lockfile
+
+            - name: check
+              run: npm run beachball:check
+
+            - name: lint
+              run: npm run lint
+
+            - name: build
+              run: npm run build

@@ -1,0 +1,30 @@
+{
+    "name": "azure-devops-pr-comment",
+    "version": "0.0.20",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "just-scripts build",
+        "clean": "just-scripts clean",
+        "rebuild": "just-scripts rebuild",
+        "pack": "just-scripts pack",
+        "git:push": "just-scripts git:push",
+        "bump": "just-scripts bump"
+    },
+    "author": "Altinok Darici - altinok.darici@gmail.com",
+    "license": "ISC",
+    "dependencies": {
+        "azure-devops-node-api": "^10.1.0",
+        "azure-pipelines-task-lib": "^2.9.3",
+        "fs-extra": "^9.0.0"
+    },
+    "devDependencies": {
+        "@types/fs-extra": "^8.1.0",
+        "@types/node": "^13.9.5",
+        "@types/q": "^1.5.2",
+        "tfx-cli": "^0.7.11",
+        "ts-loader": "^6.2.2",
+        "webpack": "^4.42.1",
+        "just-scripts": "^0.36.1"
+    }
+}

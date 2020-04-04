@@ -1,0 +1,103 @@
+{
+  "name": "just-ioc",
+  "entries": [
+    {
+      "date": "Mon, 18 Nov 2019 07:20:57 GMT",
+      "tag": "just-ioc_v1.0.7",
+      "version": "1.0.7",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Fix types'",
+            "author": "altinokd@microsoft.com",
+            "commit": "730993d82ba018c36875e636f8425657b3146085"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 18 Nov 2019 07:16:22 GMT",
+      "tag": "just-ioc_v1.0.6",
+      "version": "1.0.6",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Fix npm structure'",
+            "author": "altinokd@microsoft.com",
+            "commit": "b14c2b11961c9fe79195103b60dd35f2eaf9eb68"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 18 Nov 2019 07:10:08 GMT",
+      "tag": "just-ioc_v1.0.5",
+      "version": "1.0.5",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Fix settings'",
+            "author": "altinokd@microsoft.com",
+            "commit": "d5bca3e6dea9c7e50cae672dd07dcc4974890222"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 18 Nov 2019 07:06:13 GMT",
+      "tag": "just-ioc_v1.0.4",
+      "version": "1.0.4",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Update config",
+            "author": "altinokd@microsoft.com",
+            "commit": "575066811248c23b25347d3ec957d135ae275338"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 18 Nov 2019 06:28:13 GMT",
+      "tag": "just-ioc_v1.0.3",
+      "version": "1.0.3",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Update publish script",
+            "author": "altinokd@microsoft.com",
+            "commit": "d3f09555f61eefa227ab36f1117aae0964d875d9"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 18 Nov 2019 06:23:32 GMT",
+      "tag": "just-ioc_v1.0.2",
+      "version": "1.0.2",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Add index",
+            "author": "altinokd@microsoft.com",
+            "commit": "30155e550c188794c65bd274b029a64070558207"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 18 Nov 2019 06:12:29 GMT",
+      "tag": "just-ioc_v1.0.1",
+      "version": "1.0.1",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Beachball",
+            "author": "altinokd@microsoft.com",
+            "commit": "719281e11459e1e26fc8203d5697308bc5d578ff"
+          }
+        ]
+      }
+    }
+  ]
+}

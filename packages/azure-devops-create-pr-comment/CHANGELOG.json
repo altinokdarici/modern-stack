@@ -1,0 +1,116 @@
+{
+  "name": "azure-devops-pr-comment",
+  "entries": [
+    {
+      "date": "Mon, 30 Mar 2020 16:24:12 GMT",
+      "tag": "azure-devops-pr-comment_v0.0.20",
+      "version": "0.0.20",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Fix bumpVersion",
+            "author": "altinokd@microsoft.com",
+            "commit": "9a8ae1bf0556772b8c04c6e4b2bbb6a606b37e05",
+            "package": "azure-devops-pr-comment"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 30 Mar 2020 15:54:41 GMT",
+      "tag": "azure-devops-pr-comment_v0.0.19",
+      "version": "0.0.19",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Fix bumpVersion",
+            "author": "altinokd@microsoft.com",
+            "commit": "9aeb560829139cfa19bdb3ff73ed30848f327f45",
+            "package": "azure-devops-pr-comment"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 30 Mar 2020 07:46:31 GMT",
+      "tag": "azure-devops-pr-comment_v0.0.18",
+      "version": "0.0.18",
+      "comments": {
+        "none": [
+          {
+            "comment": "Fix yml files",
+            "author": "altinokd@microsoft.com",
+            "commit": "0a2ecdeede56c6d74fa4b9e6e27020414d08d51f",
+            "package": "azure-devops-pr-comment"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 30 Mar 2020 07:30:25 GMT",
+      "tag": "azure-devops-pr-comment_v0.0.18",
+      "version": "0.0.18",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Fix bumpVersion",
+            "author": "altinokd@microsoft.com",
+            "commit": "b2d8c3eab5a7ad222b105e12949a6be1e1071b97",
+            "package": "azure-devops-pr-comment"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 30 Mar 2020 07:16:09 GMT",
+      "tag": "azure-devops-pr-comment_v0.0.17",
+      "version": "0.0.17",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Readme added",
+            "author": "altinokd@microsoft.com",
+            "commit": "bda52a301d0afc4967ca4618f5957bc7e8cbc059",
+            "package": "azure-devops-pr-comment"
+          },
+          {
+            "comment": "Fix repo",
+            "author": "altinokd@microsoft.com",
+            "commit": "bda52a301d0afc4967ca4618f5957bc7e8cbc059",
+            "package": "azure-devops-pr-comment"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 30 Mar 2020 06:22:52 GMT",
+      "tag": "azure-devops-pr-comment_v0.0.16",
+      "version": "0.0.16",
+      "comments": {
+        "patch": [
+          {
+            "comment": "reorganize just.config.ts",
+            "author": "altinokd@microsoft.com",
+            "commit": "bda52a301d0afc4967ca4618f5957bc7e8cbc059",
+            "package": "azure-devops-pr-comment"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 30 Mar 2020 06:16:47 GMT",
+      "tag": "azure-devops-pr-comment_v0.0.15",
+      "version": "0.0.15",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Add beachball",
+            "author": "altinokd@microsoft.com",
+            "commit": "bda52a301d0afc4967ca4618f5957bc7e8cbc059",
+            "package": "azure-devops-pr-comment"
+          }
+        ]
+      }
+    }
+  ]
+}

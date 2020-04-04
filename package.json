@@ -1,0 +1,40 @@
+{
+    "private": true,
+    "scripts": {
+        "lerna": "lerna",
+        "build": "lerna run build --parallel",
+        "rebuild": "lerna run rebuild --parallel",
+        "clean": "lerna run clean --parallel",
+        "test": "lerna run test",
+        "lint": "eslint **/*.{js,ts}",
+        "lint-fix": "eslint **/*.{js,ts} --fix",
+        "change": "beachball change",
+        "beachball:check": "beachball check",
+        "beachball:publish": "beachball publish -y"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.9.0",
+        "@babel/preset-env": "^7.9.0",
+        "@babel/preset-typescript": "^7.9.0",
+        "@typescript-eslint/eslint-plugin": "^2.26.0",
+        "@typescript-eslint/parser": "^2.26.0",
+        "babel-jest": "^25.2.6",
+        "beachball": "^1.23.3",
+        "eslint": "^6.8.0",
+        "eslint-config-prettier": "^6.10.1",
+        "eslint-plugin-prettier": "^3.1.2",
+        "jest": "^25.2.7",
+        "just-scripts": "^0.36.1",
+        "lerna": "^3.20.2",
+        "prettier": "^2.0.2",
+        "ts-node": "^8.8.1",
+        "typescript": "^3.8.3"
+    },
+    "workspaces": [
+        "packages/*"
+    ],
+    "dependencies": {
+        "babel-eslint": "^10.1.0"
+    },
+    "name": "modern-stack"
+}
