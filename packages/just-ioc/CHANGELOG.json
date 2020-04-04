@@ -2,6 +2,21 @@
   "name": "just-ioc",
   "entries": [
     {
+      "date": "Sat, 04 Apr 2020 08:41:39 GMT",
+      "tag": "just-ioc_v1.0.14",
+      "version": "1.0.14",
+      "comments": {
+        "none": [
+          {
+            "comment": "Fix tests",
+            "author": "altinokd@microsoft.com",
+            "commit": "c038e4ad7024fd5df742d1acc6326b3935c37ff5",
+            "package": "just-ioc"
+          }
+        ]
+      }
+    },
+    {
       "date": "Sat, 04 Apr 2020 07:56:03 GMT",
       "tag": "just-ioc_v1.0.14",
       "version": "1.0.14",
