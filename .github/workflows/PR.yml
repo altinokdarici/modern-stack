@@ -11,14 +11,12 @@ jobs:
         steps:
             - uses: actions/checkout@v2
 
-            - name: yarn install
-              run: yarn install --frozen-lockfile
+            - run: yarn install --frozen-lockfile
 
-            - name: check
-              run: npm run beachball:check
+            - run: yarn beachball:check
 
-            - name: lint
-              run: npm run lint
+            - run: yarn lint
 
-            - name: build
-              run: npm run build
+            - run: yarn build
+
+            - run: yarn test

@@ -10,7 +10,8 @@
         "rebuild": "just-scripts rebuild",
         "pack": "just-scripts pack",
         "git:push": "just-scripts git:push",
-        "bump": "just-scripts bump"
+        "bump": "just-scripts bump",
+        "test": "echo \"No test specified\""
     },
     "author": "Altinok Darici - altinok.darici@gmail.com",
     "license": "ISC",

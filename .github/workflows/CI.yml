@@ -11,14 +11,13 @@ jobs:
         steps:
             - uses: actions/checkout@v2
 
-            - name: yarn install
-              run: yarn install --frozen-lockfile
+            - run: yarn install --frozen-lockfile
 
-            - name: lint
-              run: npm run lint
+            - run: yarn lint
 
-            - name: build
-              run: npm run build
+            - run: yarn build
+
+            - run: yarn test
 
             - name: set git
               run: git config --global user.email "altinok.darici@gmail.com" &&  git config --global user.name "altinokdarici" &&  git remote set-url origin "https://altinokdarici:$GIT_PAT@github.com/altinokdarici/modern-stack.git"
@@ -26,6 +25,6 @@ jobs:
                   GIT_PAT: ${{ secrets.GIT_PAT }}
 
             - name: publish
-              run: npm run beachball:publish -- -n $NPM_TOKEN
+              run: yarn beachball:publish -- -n $NPM_TOKEN
               env:
                   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
