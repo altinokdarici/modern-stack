@@ -2,6 +2,21 @@
   "name": "just-ioc",
   "entries": [
     {
+      "date": "Sat, 04 Apr 2020 07:56:03 GMT",
+      "tag": "just-ioc_v1.0.14",
+      "version": "1.0.14",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Project moved into modern-stack repo",
+            "author": "altinokd@microsoft.com",
+            "commit": "b6f6bf08abbe2a550b233022fd88cc565d676d91",
+            "package": "just-ioc"
+          }
+        ]
+      }
+    },
+    {
       "date": "Mon, 18 Nov 2019 07:20:57 GMT",
       "tag": "just-ioc_v1.0.7",
       "version": "1.0.7",

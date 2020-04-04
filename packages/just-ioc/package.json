@@ -1,29 +1,29 @@
 {
-    "name": "just-ioc",
-    "version": "1.0.13",
-    "description": "Simplest IOC container",
-    "main": "lib/index.js",
-    "types": "lib/index.d.ts",
-    "scripts": {
-        "build": "just-scripts build",
-        "rebuild": "just-scripts rebuild",
-        "clean": "just-scripts clean",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/altinokdarici/modern-stack.git"
-    },
-    "keywords": [
-        "ioc"
-    ],
-    "author": "Altinok Darici",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/altinokdarici/modern-stack/issues"
-    },
-    "homepage": "https://github.com/altinokdarici/modern-stack/tree/master/packages/just-ioc#readme",
-    "devDependencies": {
-        "just-scripts": "^0.36.1"
-    }
+  "name": "just-ioc",
+  "version": "1.0.14",
+  "description": "Simplest IOC container",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "just-scripts build",
+    "rebuild": "just-scripts rebuild",
+    "clean": "just-scripts clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/altinokdarici/modern-stack.git"
+  },
+  "keywords": [
+    "ioc"
+  ],
+  "author": "Altinok Darici",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/altinokdarici/modern-stack/issues"
+  },
+  "homepage": "https://github.com/altinokdarici/modern-stack/tree/master/packages/just-ioc#readme",
+  "devDependencies": {
+    "just-scripts": "^0.36.1"
+  }
 }

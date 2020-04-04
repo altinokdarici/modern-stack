@@ -1,6 +1,16 @@
 # Change Log - just-ioc
 
-This log was last generated on Mon, 18 Nov 2019 07:20:57 GMT and should not be manually modified.
+This log was last generated on Sat, 04 Apr 2020 07:56:03 GMT and should not be manually modified.
+
+<!-- Start content -->
+
+## 1.0.14
+
+Sat, 04 Apr 2020 07:56:03 GMT
+
+### Patches
+
+- Project moved into modern-stack repo (altinokd@microsoft.com)
 
 ## 1.0.7
 Mon, 18 Nov 2019 07:20:57 GMT
