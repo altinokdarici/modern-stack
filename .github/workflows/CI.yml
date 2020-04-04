@@ -25,6 +25,6 @@ jobs:
                   GIT_PAT: ${{ secrets.GIT_PAT }}
 
             - name: publish
-              run: yarn beachball:publish -- -n $NPM_TOKEN
+              run: yarn beachball:publish -n $NPM_TOKEN
               env:
                   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
