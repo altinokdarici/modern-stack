@@ -21,7 +21,7 @@ jobs:
               run: npm run build
 
             - name: set git
-              run: git config --global user.email "altinok.darici@gmail.com" &&  git config --global user.name "altinokdarici" &&  git remote set-url origin "https://altinokdarici:$GIT_PAT@github.com/altinokdarici/just-ioc.git"
+              run: git config --global user.email "altinok.darici@gmail.com" &&  git config --global user.name "altinokdarici" &&  git remote set-url origin "https://altinokdarici:$GIT_PAT@github.com/altinokdarici/modern-stack.git"
               env:
                   GIT_PAT: ${{ secrets.GIT_PAT }}
 
