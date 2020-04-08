@@ -6688,10 +6688,10 @@ jszip@~3.1.5:
     tar "^4.4.8"
     yargs "^12.0.5"
 
-just-scripts@^0.36.1:
-  version "0.36.1"
-  resolved "https://registry.yarnpkg.com/just-scripts/-/just-scripts-0.36.1.tgz#ccb1930c922cf47c7237456f218263acbf5e53b1"
-  integrity sha512-7mQVfjWYLJqw+fkr/BNSO05tG0Eyg/rrt6gqt2yscG4zjsTAk1h1q5Nnw9j07liJPb0lcEwmMiyNM8KBZNMYug==
+just-scripts@^0.37.1:
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/just-scripts/-/just-scripts-0.37.1.tgz#be5885e56a9b9ae56fac9e6d792949d48395062d"
+  integrity sha512-03gTq/Oqo+J+m/XfUY+vC451XYfRC1LDku9RqnoScNumuxixvelxWhwLdjlKB1r+M+siMcejShNIXNfmFT184A==
   dependencies:
     "@types/node" "^10.12.18"
     chalk "^2.4.1"
