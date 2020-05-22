@@ -2951,9 +2951,9 @@ bcrypt-pbkdf@^1.0.0:
     tweetnacl "^0.14.3"
 
 beachball@^1.23.3:
-  version "1.27.0"
-  resolved "https://registry.yarnpkg.com/beachball/-/beachball-1.27.0.tgz#219e712c9339f70769d8713455730f73b4e9a45b"
-  integrity sha512-FUI5TJO2FgOlkGfIW2oNB46qsjiW9QBM1hlszvTP1sohpLecbEMDquR1qyTGZuk9fi1HWllaqADzNqchQsx0MA==
+  version "1.31.1"
+  resolved "https://registry.yarnpkg.com/beachball/-/beachball-1.31.1.tgz#7f7e7702f4c0ac2db33907efef4d1306c612c59f"
+  integrity sha512-HVcMqpo+mUrl89RXzJQBOzvIhvL9e8QwUc+4RUtAakmocKizk8JZS5GhQwiAEYZUjjqYR+GDPSiGj9fC1BAjrQ==
   dependencies:
     cosmiconfig "^6.0.0"
     fs-extra "^8.0.1"
@@ -2963,6 +2963,7 @@ beachball@^1.23.3:
     minimatch "^3.0.4"
     prompts "~2.1.0"
     semver "^6.1.1"
+    toposort "^2.0.2"
     yargs-parser "^13.1.0"
 
 before-after-hook@^2.0.0:
@@ -10002,6 +10003,11 @@ to-regex@^3.0.1, to-regex@^3.0.2:
     extend-shallow "^3.0.2"
     regex-not "^1.0.2"
     safe-regex "^1.1.0"
+
+toposort@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/toposort/-/toposort-2.0.2.tgz#ae21768175d1559d48bef35420b2f4962f09c330"
+  integrity sha1-riF2gXXRVZ1IvvNUILL0li8JwzA=
 
 tough-cookie@^2.3.3, tough-cookie@~2.5.0:
   version "2.5.0"
