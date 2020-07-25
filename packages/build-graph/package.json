@@ -1,5 +1,5 @@
 {
-    "name": "build-tree",
+    "name": "build-graph",
     "private": true,
     "version": "1.0.0",
     "description": "",
@@ -20,6 +20,7 @@
     },
     "devDependencies": {
         "@modern-stack/build": "^1.0.0",
+        "just-scripts": "^0.36.1",
         "@types/glob": "^7.1.1",
         "@types/yargs": "^15.0.4"
     }

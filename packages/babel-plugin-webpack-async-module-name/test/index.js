@@ -5,7 +5,7 @@ const expect = require('chai').expect;
 
 function testPlugin(code, _) {
     const result = babel.transform(code, {
-        plugins: ['./lib-commonjs/index.js'],
+        plugins: ['./lib/index.js'],
     });
     return result.code;
 }
